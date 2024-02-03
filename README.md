@@ -1,4 +1,6 @@
-# Bonjour Taill'Créons va t'apprendre à faire un drôle d'enregistreur vocal
+
+# Hello Taill'Créons va t'apprendre à faire un drôle d'enregistreur vocal
+
 TUTO Taill'Créons - drôle d'enregistreur vocal
 ## Etape 1 - Bonjour Taill'Crons va t'apprendre à faire un drôle d'enregistreur vocal! @showdialog
 Suis bien les instructions à chaques étapes et clique sur SUIVANT pour passer aux prochaines étapes.
