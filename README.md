@@ -1,24 +1,16 @@
+# Bonjour Taill'Créons va t'apprendre à faire un drôle d'enregistreur vocal
+TUTO Taill'Créons - drôle d'enregistreur vocal
+## Etape 1 - Bonjour Taill'Crons va t'apprendre à faire un drôle d'enregistreur vocal! @showdialog
+Suis bien les instructions à chaques étapes et clique sur SUIVANT pour passer aux prochaines étapes.
+N'hésite pas à cliquer sur le bouton d'aide en forme d'ampoule en cas de blocage. 
+Clique sur OK pour commencer.
 
-> Ouvrir cette page à [https://medgoh.github.io/tutoriel_taill_creons_1/](https://medgoh.github.io/tutoriel_taill_creons_1/)
-
-## Utiliser comme extension
-
-Ce dépôt peut être ajouté en tant qu'**extension** dans MakeCode.
-
-* ouvrir [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* cliquez sur **Nouveau projet**
-* cliquez sur **Extensions** dans le menu engrenage
-* recherchez **https://github.com/medgoh/tutoriel_taill_creons_1** et importez
-
-## Éditer ce projet
-
-Éditer ce dépôt dans MakeCode.
-
-* ouvrir [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* cliquez sur **Importer** puis cliquez sur **Importer l'URL **
-* collez **https://github.com/medgoh/tutoriel_taill_creons_1** et cliquez sur importer
-
-#### Métadonnées (utilisées pour la recherche, le rendu)
-
-* for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+## Etape 2: détecter un apuie sur le bouton A
+On veut que lorsque l'on appuie sur le bouton ``||input:A||`` du micro:bit, un enregistrement audio démarre.
+Dans la boite à outils, clique sur la section ``||input:Entrée||`` et déplace un bloc
+``||Input:Lorsque le bouton A est pressé||`` sur la droite.
+Clique sur ``|Next|``.
+``` blocks
+input.onButtonPressed(Button.A, function () {
+})
+``` 
